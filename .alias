@@ -1,0 +1,26 @@
+#Generic aliases
+alias a="alias"
+alias h="history"
+alias va="vim ~/.alias" 
+alias ra=". ~/.alias"
+alias c="clear"
+
+#c9 study env specific
+alias cdw="cd /home/ubuntu/workspace"
+alias cda="cd /home/ubuntu/workspace/achieve"
+alias cdapp="cd /home/ubuntu/workspace/achieve/app"
+alias cdconf="cd /home/ubuntu/workspace/achieve/config"
+alias cdcont="cd /home/ubuntu/workspace/achieve/app/controllers"
+alias cddb="cd /home/ubuntu/workspace/achieve/db"
+alias cdmig="cd /home/ubuntu/workspace/achieve/db/migrate"
+alias cdmod="cd /home/ubuntu/workspace/achieve/app/models"
+alias cdvw="cd /home/ubuntu/workspace/achieve/app/views"
+alias dbstart="sudo service postgresql start"
+alias dbstop="sudo service postgresql stop"
+alias dbrestart="sudo service postgresql restart"
+alias dbstatus="sudo service postgresql status"
+alias MEMO="vim /home/ubuntu/workspace/achieve/MEMO.txt"
+alias MEMORE="more /home/ubuntu/workspace/achieve/MEMO.txt"
+alias MEMOTAIL="tail /home/ubuntu/workspace/achieve/MEMO.txt"
+alias startws="cda;rails s -b $IP -p $PORT"
+~                                              
